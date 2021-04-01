@@ -11,6 +11,9 @@ function setupEditor()
 {
   window.editor = ace.edit("editor");
   editor.setTheme("ace/theme/monokai");
+ 
+  editor.getSession().setMode("ace/mode/js");
+  editor.getSession().setMode("ace/mode/css");
   editor.getSession().setMode("ace/mode/html");
   editor.setValue(`<!--CREATED BY :- VIVEK SOLANKI-->
 <!DOCTYPE html>
