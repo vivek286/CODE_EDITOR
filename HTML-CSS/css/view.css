@@ -1,0 +1,25 @@
+#container{
+    height: 100%;
+    width: 50%;
+    display: inline-block
+}
+#i{
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+}
+#html{
+    height: 50%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: block;
+}
+#css{
+    height: 50%;
+    width: 100%;
+    background-color: purple;
+    color: white;
+    display: block;
+}
+
