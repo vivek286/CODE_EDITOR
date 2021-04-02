@@ -1,25 +1,29 @@
-#container{
-    height: 100%;
-    width: 50%;
-    display: inline-block
-}
-#i{
+#editors,#out{
     height: 100%;
     width: 50%;
     display: inline-block;
 }
-#html{
+body{
+    margin: 0%;
+}
+#html,#css{
     height: 50%;
     width: 100%;
-    background-color: black;
-    color: white;
-    display: block;
+    display: inline-block;
+}
+#html{
+    background-color: blue;
 }
 #css{
-    height: 50%;
-    width: 100%;
-    background-color: purple;
-    color: white;
-    display: block;
+    background-color: brown;
 }
-
+#iframe{
+    display: inline-block;
+    background-color: red;
+    height: 100%;
+    width: 100%;
+}
+#container{
+    height: 100%;
+    width: 100%;
+}
